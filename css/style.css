@@ -184,7 +184,7 @@
     margin-left: 17%;
 }
 .service-img {
-    width: 45%;
+    width: 35%;
 }
 
 .service__content {
@@ -194,10 +194,12 @@
     margin: 0 auto;
     margin-top: 30px;
     width: 70%;
+    height: 40vw;
 }
 .service__content p {
     letter-spacing: 1px;
-    line-height: 30px;
+    line-height: 2vw;
+    font-size: 1.2vw;
 }
 .service__content-left {
     background-color: #B31667;
@@ -218,8 +220,11 @@
 .service-teach {
     margin-left: 20px;
 }
+.service-teach2 {
+    margin-top: 40px;
+}
 .teach {
-    font-size: 20px;
+    font-size: 2vw;
     margin-bottom: 20px;
 }
 .teach-r {
@@ -228,18 +233,21 @@
 
 .service__content-right {
     width: 55%;
+    height: 40vw;
 }
 .service__right-top {
     display: flex;
-    justify-content: space-between;
     background-color: #B35B8B;
-    padding: 30px;
+    height: 20vw;
+    padding-left: 30px;
+    position: relative;
 }
 .service__right-under {
     display: flex;
-    justify-content: space-between;
     background-color: #B2889E;
-    padding: 30px;
+    height: 20vw;
+    padding-left: 30px;
+    position: relative;
 }
 
 /*------------blog-----------*/
@@ -296,7 +304,7 @@
     margin: 0 auto;
 }
 .blog-list-textbox {
-    font-size: 14px;
+    font-size: 1.2vw;
     letter-spacing: 1.8px;
     color: #7f7f7f;
     margin: 0 auto;
@@ -309,7 +317,7 @@
     justify-content: space-between;
     padding: 0 20px 0 20px;
     margin-top: 50px;
-    font-size: 14px;
+    font-size: 1.2vw;
 }
 .tag {
     width: 110px;
